@@ -1,7 +1,7 @@
 wait.js
 =======
 
-Customization Friendly.
+Customization Friendly. With Time Elapsed.
 
 wait.show();
 wait.hide();
