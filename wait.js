@@ -3,12 +3,14 @@ var wait = {
   interval: null,
    
   prependInsideBody: function (message) {
-       
+
+	message = message == null ? "Please Wait":message;
+	
     $("body").prepend("<div id = 'wait' style = 'display: table; position: fixed; width: 100%; height: 100%; text-align: center; background: rgba(0, 0, 0, .8); z-index: 15000;'>" +
                       "  <div style = 'display: table-cell; vertical-align: middle; '>" +
-                      "    (message != null ? "<span style = 'color: #FFF; font-size: 16px; font-weight: bold;'>" + message + "</span><br /><br />":"") +
-                      "    Please Wait<br />" +
-                      "    <br /><span style = 'color: #FFF; font-family: arial; font-size: 10x;'>Time Elapsed: <div style = 'display: inline-block; font-weight: bold;' id = 'timebox'>00:00</div>" +
+                      "    <span style = 'color: #FFF; font-family: arial; font-size: 10x;'>" +
+                      "      <b>" + message + "</b><br />" +
+                      "      <br />Time Elapsed: <div style = 'display: inline-block; font-weight: bold;' id = 'timebox'>00:00</div>" +
                       "  </div>" +
                       "</div>");   
        
