@@ -1,11 +1,17 @@
 wait.js
 =======
 
-Customization Friendly. With Time Elapsed.
+Features:
+ 
+ - Customization Friendly.
+ - Shows Time Elapsed.
 
-wait.show();
-wait.hide();
+How to Use:
 
-body { margin: 0 }
+ - Set Document Margin to 0 (e.g. body { margin: 0 })
+ - wait.show();
+ - wait.hide();
 
-Default message = Please Wait
+Config:
+
+ - Default message: Please Wait
