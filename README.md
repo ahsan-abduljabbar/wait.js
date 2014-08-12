@@ -9,8 +9,14 @@ Features:
 How to Use:
 
  - Set Document Margin to 0 (e.g. body { margin: 0 })
- - wait.show();
- - wait.hide();
+ - 
+ 
+Usage:
+
+```
+wait.show();
+wait.hide();
+```
 
 Config:
 
