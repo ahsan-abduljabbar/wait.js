@@ -5,11 +5,6 @@ Features:
  
  - Customization Friendly.
  - Shows Time Elapsed.
-
-How to Use:
-
- - Set Document Margin to 0 (e.g. body { margin: 0 })
- - 
  
 Usage:
 
@@ -18,6 +13,7 @@ wait.show();
 wait.hide();
 ```
 
-Config:
+Other Info:
 
- - Default message: Please Wait
+ - Set <body> margin to 0.
+ - Default message is "Please Wait
