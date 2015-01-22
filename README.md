@@ -13,7 +13,7 @@ Usage:
   
 </script>
 ```
-Set <body> margin to 0 (recommended).
+0 Body margin (recommended).
 
 Features:
  
